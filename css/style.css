@@ -10,6 +10,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    line-height: 20px;
+}
+
 #container {
     background: white;
     border: 1px solid black;
@@ -32,4 +36,27 @@ h1 {
     border-bottom: 2px solid #8c030c;
     margin: 10px 0;
     padding: 10px 0;
+}
+
+main {
+    background-color: #ededed;
+    margin: 20px 70px;
+    padding: 15px;
+}
+
+main p {
+    font-size: 16px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+main header h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+main header img {
+    width: 90px;
+    margin-bottom: 10px;
 }
