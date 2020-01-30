@@ -1,0 +1,35 @@
+/* Background #d2d2d2
+Background La série #cd7677
+Bordure Hero Corp #8c030c
+Background Hero Corp + actors #ededed
+Texte rouge #7a2c39 */
+
+body {
+    background-color: #d2d2d2;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    background: white;
+    border: 1px solid black;
+    width: 700px;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+#header-main {
+}
+
+#header-main img {
+    width: 250px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    border-top: 2px solid #8c030c;
+    border-bottom: 2px solid #8c030c;
+    margin: 10px 0;
+    padding: 10px 0;
+}
