@@ -42,6 +42,12 @@ h1 {
   padding: 10px 0;
 }
 
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
 h1 strong {
   font-size: 14px;
   background-color: black;
@@ -121,17 +127,17 @@ article h3 {
   display: block;
 }
 
-#en-images h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 10px;
+#pictures {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #pictures .picture {
-  width: 30%;
+  /*width: 30%*/
+  flex: 1;
   border: 1px solid #ccc;
   padding: 15px;
-  margin: 15px auto;
+  /* margin: 15px auto; */
 }
 
 #pictures .picture img {
