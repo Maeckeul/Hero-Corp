@@ -1,0 +1,22 @@
+.header__title {
+
+    border-top: 1px solid $red;
+    border-bottom: 1px solid $red;
+    text-align: center;
+    margin: 1em 0;
+    padding: 1em 0;
+    width: 100%;
+
+
+    &--hero-corp {
+        font-size: 4em;
+        font-weight: 700;
+    }
+
+    &--block {
+        font-size: 14px;
+        padding: 0.3em 1.3em;
+        background-color: $black;
+        color: $white;
+    }
+}

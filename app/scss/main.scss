@@ -1,0 +1,31 @@
+@charset 'utf-8';
+
+@import
+    'abstract/vars';
+
+@import
+    '~reset-css/sass/reset';
+
+@import
+    'base/base',
+    'base/typo';
+
+@import
+    'layout/wrapper',
+    'layout/header',
+    'layout/main',
+    'layout/footer';
+
+@import
+    'component/header-title',
+    'component/header-logo',
+    'component/main-presentation',
+    'component/main-synopsis',
+    'component/main-actors',
+    'component/main-img',
+    'component/footer-copyright';
+
+@import
+    'shame';
+
+
